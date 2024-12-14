@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 600px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: black;
+        }
+        .a1{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: blue;
+        }
+        #child1,#child3{
+            height: 400px;
+            width: 400px;
+            background-color:whitesmoke;
+        }
+        #child2{
+            height: 400px;
+            width: 400px;
+            background-color:silver;
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        iframe{
+            height: 400px;
+            width: 400px;
+        }
+        img{
+            height: 400px;
+            width: 400px;
+            
+        }
+        audio{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child1">
+            <a href="https://www.youtube.com/watch?v=3V-wb9EZCZk" target="_blank">
+                <img src="https://pbs.twimg.com/media/F2tRuY7XAAo98-8.jpg" alt=""> 
+            </a>
+        </div>
+        <div id="child2">
+            <div>
+                <audio class="a1" controls loop muted src="C:\Users\mahal\Downloads\247.mp3"></audio>
+                <br>
+                <audio class="a1" controls loop muted src="C:\Users\mahal\Downloads\[iSongs.info] 08 - Ninyaarele.mp3"></audio>
+                <br>
+                <audio class="a1" controls loop muted src="C:\Users\mahal\Downloads\[iSongs.info] 04 - Nana Mele Nanageega.mp3"></audio>
+            </div>   
+        </div>
+        <div id="child3">
+            <iframe controls loop autoplay muted src="https://www.youtube.com/embed/wXABObj3h5I"></iframe>
+        </div>
+        
+    </div>
+</body>
+</html>
